@@ -68,7 +68,7 @@ const Register = () => {
                 </Button>
                 <br />
                 <Form.Text className="text-secondary">
-                    Already have an Account? <Link to="/login">Login</Link>
+                    Already have an account? <Link to="/login">Login</Link>
                 </Form.Text>
 
                 <Form.Text className="text-success">

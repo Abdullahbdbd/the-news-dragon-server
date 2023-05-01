@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import EditorsInsights from '../../News/EditorsInsights/EditorsInsights';
+import EditorsInsights2 from '../../News/EditorsInsights2/EditorsInsights2';
 
 const LeftNav = () => {
     const [categories, setCategories] = useState([]);
@@ -22,6 +24,9 @@ const LeftNav = () => {
                         <Link to={`/category/${category.id}`} className='text-black text-decoration-none'>{category.name}</Link>
                     </p>)
                 }
+                
+               <EditorsInsights2></EditorsInsights2>
+                
             </div>
         </div>
     );
